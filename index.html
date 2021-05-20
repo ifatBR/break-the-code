@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .digit-string{
+            width:600px;
+            word-wrap: break-word;
+            margin-bottom: 40px;
+        }
+        .stringy-missed{
+            width:600px;
+            word-wrap: break-word;
+            color:red;
+
+        }
+        .dups{
+            display:inline-block;
+            margin:1px 0;  
+        }
+        span{
+            font-weight: bold;
+            color:purple;
+            background-color: rgb(255, 217, 0);
+        }
+    </style>
+</head>
+<body>
+    <h2>Break the safe!</h2>
+    <h3>String (length <span class="length"></span>):</h3>
+    <p class="digit-string"></p>
+    
+    <h3>Missed:</h3>
+    <p class="stringy-missed">Not calculating</p>
+   
+    <h3>Duplicates::</h3>
+    <p class="stringy-repeat">Not calculating</p>
+    <script src="./app.js"></script>
+</body>
+</html>
